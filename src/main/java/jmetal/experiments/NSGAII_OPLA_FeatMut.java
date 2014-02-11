@@ -29,9 +29,9 @@ public class NSGAII_OPLA_FeatMut {
 //--  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --
  public static void main(String[] args) throws FileNotFoundException, IOException, JMException, ClassNotFoundException {
 
-         int runsNumber = 2; //30;
-         populationSize_ = 2; //100
-         maxEvaluations_ = 2; //300 gera��es
+         int runsNumber = 30; //30;
+         populationSize_ = 100; //100
+         maxEvaluations_ = 30000; //300 gera��es
          
          crossoverProbability_ = 0.0; 
          mutationProbability_ = 0.9;
@@ -40,9 +40,9 @@ public class NSGAII_OPLA_FeatMut {
          String moea = "NSGAII-M";
          
          //File directory = new File("resultado/nsgaii/" + context);
-         File directory = new File("experiment/OPLA/NSGA-II/FeatureMutation" + "/");
+         File directory = new File("experiment/OPLA/NSGA-II/PatternMutation" + "/");
          if (!directory.exists()) {
-             if (!directory.mkdir()) {
+             if (!directory.mkdirs()) {
              	System.out.println("N�o foi poss�vel criar o diret�rio do resultado");
              	System.exit(0);
              }

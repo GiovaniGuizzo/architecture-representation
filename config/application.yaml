@@ -1,6 +1,6 @@
 --- !DirTarget
-pathToTemplateModelsDirectory: /Users/elf/Desktop/templates/
+pathToTemplateModelsDirectory: /Users/giovaniguizzo/NetBeansProjects/OPLA-Patterns/config/
 directoryToSaveModels: manipulation/
-directoryToExportModels: /Users/elf/Documents/workspaceModeling/testeFinal/
-pathToProfile: src/test/java/resources/agm_gerada/resources/smarty.profile.uml
-pathToProfileConcern: src/test/java/resources/agm_gerada/resources/perfilConcerns.profile.uml
+directoryToExportModels: output/TestePatterns/
+pathToProfile: /Users/giovaniguizzo/NetBeansProjects/OPLA-Patterns/config/smarty.profile.uml
+pathToProfileConcern: /Users/giovaniguizzo/NetBeansProjects/OPLA-Patterns/config/perfilConcerns.profile.uml

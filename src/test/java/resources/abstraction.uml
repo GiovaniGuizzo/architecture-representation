@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_Qgwr8FlwEeOFtve9bdVZxQ" name="model">
-  <packagedElement xmi:type="uml:Class" xmi:id="_RGtRoFlwEeOFtve9bdVZxQ" clientDependency="_SU_CoFlwEeOFtve9bdVZxQ" name="Class1"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_RgMIoFlwEeOFtve9bdVZxQ" name="Class2"/>
-  <packagedElement xmi:type="uml:Abstraction" xmi:id="_SU_CoFlwEeOFtve9bdVZxQ" name="Abstraction1" client="_RGtRoFlwEeOFtve9bdVZxQ" supplier="_RgMIoFlwEeOFtve9bdVZxQ"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_Sz8PgFlwEeOFtve9bdVZxQ" clientDependency="_T_DXwFlwEeOFtve9bdVZxQ" name="Class3"/>
-  <packagedElement xmi:type="uml:Package" xmi:id="_TbXb4FlwEeOFtve9bdVZxQ" name="Package1"/>
-  <packagedElement xmi:type="uml:Abstraction" xmi:id="_T_DXwFlwEeOFtve9bdVZxQ" name="Abstraction2" client="_Sz8PgFlwEeOFtve9bdVZxQ" supplier="_TbXb4FlwEeOFtve9bdVZxQ"/>
-</uml:Model>
