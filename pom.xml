@@ -170,11 +170,6 @@
 			<artifactId>cloning</artifactId>
 			<version>1.7.4</version>
 		</dependency>
-		<dependency>
-			<groupId>br.ufpr.inf.opla</groupId>
-			<artifactId>patterns</artifactId>
-			<version>1.0.0</version>
-		</dependency>
 	 <dependency>
 	  <groupId>org.apache.commons</groupId>
 	  <artifactId>commons-collections4</artifactId>

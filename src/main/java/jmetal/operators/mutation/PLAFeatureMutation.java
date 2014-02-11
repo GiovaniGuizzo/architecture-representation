@@ -36,7 +36,6 @@ import arquitetura.representation.relationship.AssociationRelationship;
 import arquitetura.representation.relationship.GeneralizationRelationship;
 import arquitetura.representation.relationship.RealizationRelationship;
 import arquitetura.representation.relationship.Relationship;
-import br.ufpr.inf.opla.patterns.operator.DesignPatternsMutationOperator;
 
 public class PLAFeatureMutation extends Mutation {
 
@@ -44,7 +43,6 @@ public class PLAFeatureMutation extends Mutation {
     static Logger LOGGER = LogManager.getLogger(PLAFeatureMutation.class.getName());
 
     private Double mutationProbability_ = null;
-    private final DesignPatternsMutationOperator patternsMutationOperator;
 
     public PLAFeatureMutation(HashMap<String, Object> parameters) {
         super(parameters);
@@ -52,39 +50,34 @@ public class PLAFeatureMutation extends Mutation {
         if (parameters.get("probability") != null) {
             mutationProbability_ = (Double) parameters.get("probability");
         }
-
-        patternsMutationOperator = new DesignPatternsMutationOperator();
     }
 
     public void doMutation(double probability, Solution solution) throws Exception {
         String scope = "sameComponent"; //"allComponents" usar "sameComponent" para que a troca seja realizada dentro do mesmo componente da arquitetura
         String scopeLevels = "allLevels"; //usar "oneLevel" para não verificar a presença de interesses nos atributos e métodos
 
-//        int r = PseudoRandom.randInt(0, 6);
-//        r = 0;
-//        switch (r) {
-//            case 0:
-//                FeatureMutation(probability, solution, scopeLevels);
-//                break;
-//            case 1:
-//                MoveMethodMutation(probability, solution, scope);
-//                break;
-//            case 2:
-//                MoveAttributeMutation(probability, solution, scope);
-//                break;
-//            case 3:
-//                MoveOperationMutation(probability, solution);
-//                break;
-//            case 4:
-//                AddClassMutation(probability, solution, scope);
-//                break;
-//            case 5:
-//                AddManagerClassMutation(probability, solution);
-//                break;
-//            case 6:
-                PatternsMutation(probability, solution);
-//                break;
-//        }
+        int r = PseudoRandom.randInt(0, 5);
+        r = 0;
+        switch (r) {
+            case 0:
+                FeatureMutation(probability, solution, scopeLevels);
+                break;
+            case 1:
+                MoveMethodMutation(probability, solution, scope);
+                break;
+            case 2:
+                MoveAttributeMutation(probability, solution, scope);
+                break;
+            case 3:
+                MoveOperationMutation(probability, solution);
+                break;
+            case 4:
+                AddClassMutation(probability, solution, scope);
+                break;
+            case 5:
+                AddManagerClassMutation(probability, solution);
+                break;
+        }
     }
 
     //--------------------------------------------------------------------------
@@ -100,22 +93,6 @@ public class PLAFeatureMutation extends Mutation {
             }
         }
         return false;
-    }
-
-    public void PatternsMutation(double probability, Solution solution) throws JMException {
-        LOGGER.info("Executando PatternsMutation");
-        try {
-            if (solution.getDecisionVariables()[0].getVariableType() == java.lang.Class.forName(Architecture.ARCHITECTURE_TYPE)) {
-                Architecture arch = ((Architecture) solution.getDecisionVariables()[0]);
-
-                if (PseudoRandom.randDouble() < probability) {
-                    arch = patternsMutationOperator.mutateArchitecture(arch);
-                    solution.getDecisionVariables()[0] = arch;
-                }
-            }
-        } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(PLAFeatureMutation.class.getName()).log(Level.SEVERE, null, ex);
-        }
     }
 
     public void MoveAttributeMutation(double probability, Solution solution, String scope) throws JMException {
