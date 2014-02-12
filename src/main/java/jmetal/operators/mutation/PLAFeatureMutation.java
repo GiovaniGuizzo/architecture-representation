@@ -1,6 +1,5 @@
 package jmetal.operators.mutation;
 
-import arquitetura.builders.ArchitectureBuilder;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
@@ -57,7 +56,6 @@ public class PLAFeatureMutation extends Mutation {
         String scopeLevels = "allLevels"; //usar "oneLevel" para não verificar a presença de interesses nos atributos e métodos
 
         int r = PseudoRandom.randInt(0, 5);
-        r = 0;
         switch (r) {
             case 0:
                 FeatureMutation(probability, solution, scopeLevels);
