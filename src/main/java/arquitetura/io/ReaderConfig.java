@@ -34,8 +34,7 @@ public class ReaderConfig {
     }
 
     /**
-     * Diretorio onde a arquitetura sera salva para manipulacao Este diretorio
-     * pode ser qualquer um com acesso de escrita e leitura.
+     * Diretorio onde a arquitetura sera salva para manipulacao Este diretorio pode ser qualquer um com acesso de escrita e leitura.
      *
      * @return
      */
@@ -47,8 +46,7 @@ public class ReaderConfig {
     }
 
     /**
-     * Diretório onde a arquitetura será exportada para que possa ser utilizada.
-     * Resultado final
+     * Diretório onde a arquitetura será exportada para que possa ser utilizada. Resultado final
      *
      * @return
      */
@@ -84,11 +82,7 @@ public class ReaderConfig {
     }
 
     /**
-     * Path para um diretorio contendo os tres arquivos que são usados como
-     * template para geração da arquitetura. Estes arquivos contem somente um
-     * esqueleto. Estes arquivos se encontram na raiz do projeto na pasta
-     * filesTemplates. Você pode copiar os arquivos e colocar em qualquer
-     * diretório com permissão de leitura.
+     * Path para um diretorio contendo os tres arquivos que são usados como template para geração da arquitetura. Estes arquivos contem somente um esqueleto. Estes arquivos se encontram na raiz do projeto na pasta filesTemplates. Você pode copiar os arquivos e colocar em qualquer diretório com permissão de leitura.
      *
      * @return
      */
@@ -171,10 +165,6 @@ public class ReaderConfig {
     public static void setPathToProfilePatterns(String path) {
         pathToProfilePatterns = path;
     }
-    
-    public static void setPathToProfilePatterns(String path) {
-	pathToProfilePatterns = path;
-    }
 
     public static String getNewPathToConfigurationFile() {
         return newPathToConfigurationFile;
@@ -185,9 +175,7 @@ public class ReaderConfig {
     }
 
     /**
-     * Default path is config/application.yaml If you need chance it, before
-     * call this method set the new path with
-     * <code>setNewPathToConfigurationFile</code>
+     * Default path is config/application.yaml If you need chance it, before call this method set the new path with <code>setNewPathToConfigurationFile</code>
      * <br/><br/>
      * IMPORTANT: Only call this method once.
      */
