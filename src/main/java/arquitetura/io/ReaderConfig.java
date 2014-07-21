@@ -171,6 +171,10 @@ public class ReaderConfig {
     public static void setPathToProfilePatterns(String path) {
         pathToProfilePatterns = path;
     }
+    
+    public static void setPathToProfilePatterns(String path) {
+	pathToProfilePatterns = path;
+    }
 
     public static String getNewPathToConfigurationFile() {
         return newPathToConfigurationFile;
