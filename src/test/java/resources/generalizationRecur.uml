@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_jE1g8IylEeKQvPWCm0Zn0Q" name="model">
+  <packagedElement xmi:type="uml:Class" xmi:id="_lqQrEIylEeKQvPWCm0Zn0Q" name="Class1"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_mUrhEIylEeKQvPWCm0Zn0Q" name="Class2">
+    <generalization xmi:id="_osjXYIylEeKQvPWCm0Zn0Q" general="_lqQrEIylEeKQvPWCm0Zn0Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_mw3GwIylEeKQvPWCm0Zn0Q" name="Class3">
+    <generalization xmi:id="_oBaIoIylEeKQvPWCm0Zn0Q" general="_lqQrEIylEeKQvPWCm0Zn0Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_pyP0IIylEeKQvPWCm0Zn0Q" name="Class4">
+    <generalization xmi:id="_srOzcIylEeKQvPWCm0Zn0Q" general="_mUrhEIylEeKQvPWCm0Zn0Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_qJ1NsIylEeKQvPWCm0Zn0Q" name="Class5">
+    <generalization xmi:id="_v3ZNcIylEeKQvPWCm0Zn0Q" general="_mUrhEIylEeKQvPWCm0Zn0Q"/>
+  </packagedElement>
+  <profileApplication xmi:id="_-3GuAIylEeKJ_qOCpUHV7Q">
+    <eAnnotations xmi:id="_-3beIIylEeKJ_qOCpUHV7Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="smarty.profile.uml#_OaSVgIEVEeKfhKWYalU4oQ"/>
+    </eAnnotations>
+    <appliedProfile href="smarty.profile.uml#_pWQg0HnPEeKAopGwrqrm1w"/>
+  </profileApplication>
+</uml:Model>

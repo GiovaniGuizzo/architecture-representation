@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<uml:Model xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" name="model" xmi:id="_cooD4LmGEeKQQp7P9cQvNQ" xmi:version="20110701">
+  <packagedElement isAbstract="false" name="foo" xmi:id="fc8af32a-37e6-497f-b953-71b4666cda66" xmi:type="uml:Class"/>
+  <packagedElement isAbstract="false" name="bar" xmi:id="ff21ac6e-337c-4024-9ac4-5b9a54e9e8ac" xmi:type="uml:Class"/>
+  <packagedElement memberEnd="21c01200-d31c-4bf0-8495-6be62051c4cf 53f9a7fb-3dd1-45c3-a1c8-1663ca341419" name="" xmi:id="a717bc31-6c59-44e8-9045-84cb20b3e091" xmi:type="uml:Association">
+    <ownedEnd aggregation="shared" association="a717bc31-6c59-44e8-9045-84cb20b3e091" name="class1" type="fc8af32a-37e6-497f-b953-71b4666cda66" xmi:id="21c01200-d31c-4bf0-8495-6be62051c4cf">
+      <lowerValue value="1" xmi:id="6b984c3b-19d0-4c18-ab43-e11f963f0efe" xmi:type="uml:LiteralInteger"/>
+      <upperValue value="*" xmi:id="d4f5f11f-341c-4758-a6cc-5b7f77cd8ac7" xmi:type="uml:LiteralUnlimitedNatural"/>
+    </ownedEnd>
+    <ownedEnd association="a717bc31-6c59-44e8-9045-84cb20b3e091" name="class1" type="ff21ac6e-337c-4024-9ac4-5b9a54e9e8ac" xmi:id="53f9a7fb-3dd1-45c3-a1c8-1663ca341419">
+      <lowerValue value="1" xmi:id="0e0c4634-481f-4ea4-ad0b-9292d4ec7cf8" xmi:type="uml:LiteralInteger"/>
+      <upperValue value="1" xmi:id="2eb09d26-d119-467e-beae-6953fbf197a4" xmi:type="uml:LiteralUnlimitedNatural"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>

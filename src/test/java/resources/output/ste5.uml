@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xmi:XMI xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:perfilConcerns="http:///schemas/perfilConcerns/_SsrrUBWgEeObs-pQrJ2skQ/19" xmlns:smartyProfile="http:///schemas/smartyProfile/_HFLycBygEeOSUsTHUSsmgQ/1" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="20110701" xsi:schemaLocation="http:///schemas/perfilConcerns/_SsrrUBWgEeObs-pQrJ2skQ/19 resources/perfilConcerns.profile.uml#_SsrrURWgEeObs-pQrJ2skQ http:///schemas/smartyProfile/_HFLycBygEeOSUsTHUSsmgQ/1 resources/smarty.profile.uml#_HFMZgBygEeOSUsTHUSsmgQ">
+  <uml:Model name="model" xmi:id="_cooD4LmGEeKQQp7P9cQvNQ">
+    <profileApplication xmi:id="_AZMtQMLoEeK4buShvBMouA">
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_AZV3MMLoEeK4buShvBMouA">
+        <references href="resources/smarty.profile.uml#_HFMZgBygEeOSUsTHUSsmgQ" xmi:type="ecore:EPackage"/>
+      </eAnnotations>
+      <appliedProfile href="resources/smarty.profile.uml#_9ppH0MeqEeK-FvYCaEYIKA"/>
+    </profileApplication>
+    <profileApplication xmi:id="_AZWeQMLoEeK4buShvBMouA">
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_AZdzAMLoEeK4buShvBMouA">
+        <references href="resources/perfilConcerns.profile.uml#_SsrrURWgEeObs-pQrJ2skQ" xmi:type="ecore:EPackage"/>
+      </eAnnotations>
+      <appliedProfile href="resources/perfilConcerns.profile.uml#_9v_84HqaEeK1gM_kVgXLQw"/>
+    </profileApplication>
+  <packagedElement isAbstract="false" name="Casa" xmi:id="123123123123" xmi:type="uml:Class"/>
+  </uml:Model>
+<smartyProfile:variationPoint base_Class="123123123123" bindingTime="DESIGN_TIME" numberOfVariants="3" variabilities="variability" variants="Bar1,Bar2,Bar3" xmi:id="36b8ca62-36fa-43ba-a3ac-e3b9fc849e75"/>
+  <smartyProfile:mandatory base_Class="123123123123" rootVP="123123123123" variabilities="" xmi:id="74897cbb-9280-41f5-8384-a742c162280c"/>
+</xmi:XMI>

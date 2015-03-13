@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:smartyProfile="http:///schemas/smartyProfile/_SfJh4L-6EeKzudUTJ6GjUg/0" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/smartyProfile/_SfJh4L-6EeKzudUTJ6GjUg/0 smarty.profile.uml#_SfKI8b-6EeKzudUTJ6GjUg">
+  <uml:Model xmi:id="_cooD4LmGEeKQQp7P9cQvNQ" name="model">
+    <packagedElement xmi:type="uml:Class" xmi:id="12c2c964-416d-4ae8-b888-4d72e2daeb82" name="TicTacToe">
+      <generalization xmi:id="4c267bb8-e613-45a3-9e81-1dc10e7ed953" general="e4374aef-8f22-4644-8060-f138ea9df753"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="e4374aef-8f22-4644-8060-f138ea9df753" name="MenuGame"/>
+    <profileApplication xmi:id="_MaHfgL_JEeKzudUTJ6GjUg">
+      <eAnnotations xmi:id="_MaHfgb_JEeKzudUTJ6GjUg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="perfilConcerns.profile.uml#_P_8VsHt4EeKj6c5Uq9Fn3w"/>
+      </eAnnotations>
+      <appliedProfile href="perfilConcerns.profile.uml#_9v_84HqaEeK1gM_kVgXLQw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_MaHfgr_JEeKzudUTJ6GjUg">
+      <eAnnotations xmi:id="_MaHfg7_JEeKzudUTJ6GjUg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="smarty.profile.uml#_SfKI8b-6EeKzudUTJ6GjUg"/>
+      </eAnnotations>
+      <appliedProfile href="smarty.profile.uml#__ADjAL9YEeKBnqPE5oP9jA"/>
+    </profileApplication>
+  </uml:Model>
+  <smartyProfile:mandatory xmi:id="82ebb250-90c1-4ed4-97be-95f4eec1c3a7" base_Class="e4374aef-8f22-4644-8060-f138ea9df753" rootVP="e4374aef-8f22-4644-8060-f138ea9df753"/>
+</xmi:XMI>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_4ZRLEI8aEeKqeOADLt2P_g" name="model">
+  <packagedElement xmi:type="uml:Package" xmi:id="_5ZrfMI8aEeKqeOADLt2P_g" clientDependency="_6jY5QI8aEeKqeOADLt2P_g" name="Package1">
+    <packagedElement xmi:type="uml:Usage" xmi:id="_6jY5QI8aEeKqeOADLt2P_g" name="Usage1" client="_5ZrfMI8aEeKqeOADLt2P_g" supplier="_5n_A8I8aEeKqeOADLt2P_g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_5n_A8I8aEeKqeOADLt2P_g" name="Package2"/>
+  <profileApplication xmi:id="_Das4MI8bEeKRZ8ZWnppyHA">
+    <eAnnotations xmi:id="_Das4MY8bEeKRZ8ZWnppyHA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="smarty.profile.uml#_OaSVgIEVEeKfhKWYalU4oQ"/>
+    </eAnnotations>
+    <appliedProfile href="smarty.profile.uml#_pWQg0HnPEeKAopGwrqrm1w"/>
+  </profileApplication>
+</uml:Model>

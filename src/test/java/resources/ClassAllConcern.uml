@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:perfilConcerns="http:///schemas/perfilConcerns/_SsrrUBWgEeObs-pQrJ2skQ/19" xmlns:smartyProfile="http:///schemas/smartyProfile/_-an7sECyEeO4bq-WzR985Q/1" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/perfilConcerns/_SsrrUBWgEeObs-pQrJ2skQ/19 agmfinal/perfilConcerns.profile.uml#_SsrrURWgEeObs-pQrJ2skQ http:///schemas/smartyProfile/_-an7sECyEeO4bq-WzR985Q/1 smarty.profile.uml#_-asNIECyEeO4bq-WzR985Q">
+  <uml:Model xmi:id="_qv8hEFObEeOm99wx2pxaRQ" name="model">
+    <packagedElement xmi:type="uml:Class" xmi:id="_xNsnoFObEeOm99wx2pxaRQ" name="MyInterface">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_dPZ3wFOcEeOm99wx2pxaRQ" name="Operation1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_zphJ0FObEeOm99wx2pxaRQ" clientDependency="_AP9s8FOcEeOm99wx2pxaRQ" name="Foo">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_lM3dkFOcEeOm99wx2pxaRQ" name="name" visibility="public">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_llmGoFOcEeOm99wx2pxaRQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_llmGoVOcEeOm99wx2pxaRQ" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_llmtsFOcEeOm99wx2pxaRQ">
+          <value xsi:nil="true"/>
+        </defaultValue>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_n8sg4FOcEeOm99wx2pxaRQ" name="age" visibility="public">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oRGqoFOcEeOm99wx2pxaRQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oRGqoVOcEeOm99wx2pxaRQ" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_oRHRsFOcEeOm99wx2pxaRQ">
+          <value xsi:nil="true"/>
+        </defaultValue>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_eIHBYFOcEeOm99wx2pxaRQ" name="getName"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_edeNYFOcEeOm99wx2pxaRQ" name="getAge"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Realization" xmi:id="_AP9s8FOcEeOm99wx2pxaRQ" name="Realization1" client="_zphJ0FObEeOm99wx2pxaRQ" supplier="_xNsnoFObEeOm99wx2pxaRQ"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_8-wlcFOcEeOm99wx2pxaRQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8-5IUFOcEeOm99wx2pxaRQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="smarty.profile.uml#_-asNIECyEeO4bq-WzR985Q"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="smarty.profile.uml#_o5pOAMn3EeKFvPutDPHc0Q"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_K7V1EFOdEeOm99wx2pxaRQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_K7ciwFOdEeOm99wx2pxaRQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="agmfinal/perfilConcerns.profile.uml#_SsrrURWgEeObs-pQrJ2skQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="agmfinal/perfilConcerns.profile.uml#_9v_84HqaEeK1gM_kVgXLQw"/>
+    </profileApplication>
+  </uml:Model>
+  <perfilConcerns:action xmi:id="_MGkSEFOdEeOm99wx2pxaRQ" base_Class="_zphJ0FObEeOm99wx2pxaRQ"/>
+  <perfilConcerns:collision xmi:id="_NjVLAFOdEeOm99wx2pxaRQ" base_Class="_xNsnoFObEeOm99wx2pxaRQ"/>
+  <perfilConcerns:movement xmi:id="_OVBGoFOdEeOm99wx2pxaRQ" base_Operation="_dPZ3wFOcEeOm99wx2pxaRQ"/>
+  <perfilConcerns:logging xmi:id="_PwmT0FOdEeOm99wx2pxaRQ" base_Property="_lM3dkFOcEeOm99wx2pxaRQ"/>
+  <perfilConcerns:play xmi:id="_RIGSQFOdEeOm99wx2pxaRQ" base_Property="_n8sg4FOcEeOm99wx2pxaRQ"/>
+  <perfilConcerns:pong xmi:id="_RIq6AFOdEeOm99wx2pxaRQ" base_Property="_n8sg4FOcEeOm99wx2pxaRQ"/>
+  <perfilConcerns:configuration xmi:id="_SEDkMFOdEeOm99wx2pxaRQ" base_Operation="_eIHBYFOcEeOm99wx2pxaRQ"/>
+  <perfilConcerns:save xmi:id="_TGfRkFOdEeOm99wx2pxaRQ" base_Operation="_edeNYFOcEeOm99wx2pxaRQ"/>
+  <smartyProfile:interface xmi:id="_U6AdoFOdEeOm99wx2pxaRQ" base_Class="_xNsnoFObEeOm99wx2pxaRQ"/>
+</xmi:XMI>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:perfilConcerns="http:///schemas/perfilConcerns/_SsrrUBWgEeObs-pQrJ2skQ/19" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/perfilConcerns/_SsrrUBWgEeObs-pQrJ2skQ/19 ../agm_gerada/resources/perfilConcerns.profile.uml#_SsrrURWgEeObs-pQrJ2skQ">
+  <uml:Model xmi:id="_UixIsCLREeOdJon3HTt0kQ" name="model">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_lFNJACMNEeO8LYiD_hFfOQ">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ccalgCLREeOdJon3HTt0kQ" name="Class1">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_fsWsQCLREeOdJon3HTt0kQ" name="class2" type="_eTv6kCLREeOdJon3HTt0kQ" association="_ftG6MCLREeOdJon3HTt0kQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ftFFACLREeOdJon3HTt0kQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ftFsECLREeOdJon3HTt0kQ" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_eTv6kCLREeOdJon3HTt0kQ" name="Class2"/>
+    <packagedElement xmi:type="uml:AssociationClass" xmi:id="_ftG6MCLREeOdJon3HTt0kQ" name="AssociationClass1" memberEnd="_ftG6MSLREeOdJon3HTt0kQ _fsWsQCLREeOdJon3HTt0kQ">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_g0JawCLREeOdJon3HTt0kQ" name="attr1" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_iASdwCLREeOdJon3HTt0kQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_iAUS8CLREeOdJon3HTt0kQ" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_iAWIICLREeOdJon3HTt0kQ">
+          <value xsi:nil="true"/>
+        </defaultValue>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ioRDwCLREeOdJon3HTt0kQ" name="metodo1"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_ftG6MSLREeOdJon3HTt0kQ" name="class1" type="_ccalgCLREeOdJon3HTt0kQ" association="_ftG6MCLREeOdJon3HTt0kQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ftG6MiLREeOdJon3HTt0kQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ftG6MyLREeOdJon3HTt0kQ" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_zXkbcCS6EeOA_43o7ahilg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zXkbcSS6EeOA_43o7ahilg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="../agm_gerada/resources/perfilConcerns.profile.uml#_SsrrURWgEeObs-pQrJ2skQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="../agm_gerada/resources/perfilConcerns.profile.uml#_9v_84HqaEeK1gM_kVgXLQw"/>
+    </profileApplication>
+  </uml:Model>
+  <perfilConcerns:persistence xmi:id="_3408AE1-EeO764iiLLUlqw" base_Class="_ftG6MCLREeOdJon3HTt0kQ"/>
+  <perfilConcerns:pause xmi:id="_5Ek9cE1-EeO764iiLLUlqw" base_Property="_g0JawCLREeOdJon3HTt0kQ"/>
+  <perfilConcerns:play xmi:id="_5FuM8E1-EeO764iiLLUlqw" base_Property="_g0JawCLREeOdJon3HTt0kQ"/>
+  <perfilConcerns:configuration xmi:id="_5sVhAE1-EeO764iiLLUlqw" base_Operation="_ioRDwCLREeOdJon3HTt0kQ"/>
+</xmi:XMI>

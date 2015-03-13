@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:perfilConcerns="http:///schemas/perfilConcerns/_SsrrUBWgEeObs-pQrJ2skQ/19" xmlns:smarty="http:///schemas/smarty/_cl6_wI9OEeO5S8PTmh49hw/3" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/perfilConcerns/_SsrrUBWgEeObs-pQrJ2skQ/19 ../../../../perfis/concerns.profile.uml#_SsrrURWgEeObs-pQrJ2skQ http:///schemas/smarty/_cl6_wI9OEeO5S8PTmh49hw/3 ../../../../perfis/smarty.profile.uml#_cl7m0I9OEeO5S8PTmh49hw">
+  <uml:Model xmi:id="_Yv8EoJouEeOUNM_nKSjInw" name="model">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_DcGosJowEeOUNM_nKSjInw" annotatedElement="_8u6X8JovEeOUNM_nKSjInw">
+      <body> </body>
+    </ownedComment>
+    <packagedElement xmi:type="uml:Class" xmi:id="_cLzHgJouEeOUNM_nKSjInw" name="Class1"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8u6X8JovEeOUNM_nKSjInw" name="Teste1">
+      <generalization xmi:type="uml:Generalization" xmi:id="_NDk5QJowEeOUNM_nKSjInw" general="_cLzHgJouEeOUNM_nKSjInw"/>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_gZ3DYJouEeOUNM_nKSjInw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gatX8JouEeOUNM_nKSjInw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="../../../../perfis/concerns.profile.uml#_SsrrURWgEeObs-pQrJ2skQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="../../../../perfis/concerns.profile.uml#_9v_84HqaEeK1gM_kVgXLQw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_ga3wAJouEeOUNM_nKSjInw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ga_EwJouEeOUNM_nKSjInw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="../../../../perfis/smarty.profile.uml#_cl7m0I9OEeO5S8PTmh49hw"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="../../../../perfis/smarty.profile.uml#_9ppH0MeqEeK-FvYCaEYIKA"/>
+    </profileApplication>
+  </uml:Model>
+  <perfilConcerns:brickles xmi:id="_kGaNoJouEeOUNM_nKSjInw" base_Class="_cLzHgJouEeOUNM_nKSjInw"/>
+  <smarty:mandatory xmi:id="_kHjdIJouEeOUNM_nKSjInw" base_Class="_cLzHgJouEeOUNM_nKSjInw"/>
+  <smarty:variationPoint xmi:id="_AemVwJowEeOUNM_nKSjInw" base_Class="_8u6X8JovEeOUNM_nKSjInw" numberOfVariants="1" variants="Class1&#xA;" variabilities="variability&#xA;"/>
+  <smarty:variability xmi:id="_EbEyYJowEeOUNM_nKSjInw" base_Comment="_DcGosJowEeOUNM_nKSjInw" name="variability&#xA;" minSelection="1" maxSelection="1" variants="Classs1&#xA;"/>
+</xmi:XMI>

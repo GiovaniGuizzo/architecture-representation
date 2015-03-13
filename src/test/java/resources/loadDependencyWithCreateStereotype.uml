@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:relationships="http:///schemas/relationships/_HfawAIzxEeO6Yt6TRR4QNg/1" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/relationships/_HfawAIzxEeO6Yt6TRR4QNg/1 ../../../../perfis/relationships.profile.uml#_HfawAYzxEeO6Yt6TRR4QNg">
+  <uml:Model xmi:id="_-RmboI5bEeOPtLjMEsfl2A" name="model">
+    <packagedElement xmi:type="uml:Class" xmi:id="_-ubhkI5bEeOPtLjMEsfl2A" clientDependency="__YtNoI5bEeOPtLjMEsfl2A" name="Class1"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_-9w-EI5bEeOPtLjMEsfl2A" name="Class2"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="__YtNoI5bEeOPtLjMEsfl2A" name="" client="_-ubhkI5bEeOPtLjMEsfl2A" supplier="_-9w-EI5bEeOPtLjMEsfl2A"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_CLA9MI5cEeOPtLjMEsfl2A">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CLTREI5cEeOPtLjMEsfl2A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="../../../../perfis/relationships.profile.uml#_HfawAYzxEeO6Yt6TRR4QNg"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="../../../../perfis/relationships.profile.uml#__hjjkIzaEeO6Yt6TRR4QNg"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_CLT4II5cEeOPtLjMEsfl2A">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CLhTgI5cEeOPtLjMEsfl2A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="../../../../perfis/smarty.profile.uml#_HFMZgBygEeOSUsTHUSsmgQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="../../../../perfis/smarty.profile.uml#_9ppH0MeqEeK-FvYCaEYIKA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_CLh6kI5cEeOPtLjMEsfl2A">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CLuH0I5cEeOPtLjMEsfl2A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="../../../../perfis/perfilConcerns.profile.uml#_SsrrURWgEeObs-pQrJ2skQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="../../../../perfis/perfilConcerns.profile.uml#_9v_84HqaEeK1gM_kVgXLQw"/>
+    </profileApplication>
+  </uml:Model>
+  <relationships:create xmi:id="_DackwI5cEeOPtLjMEsfl2A" base_Relationship="__YtNoI5bEeOPtLjMEsfl2A"/>
+</xmi:XMI>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_FGMtoI2PEeKIxp0D2fxnTw" name="model">
+  <packagedElement xmi:type="uml:Class" xmi:id="_FfCEYI2PEeKIxp0D2fxnTw" clientDependency="_M2A5AI2PEeKIxp0D2fxnTw" name="Class1">
+    <generalization xmi:id="_LH0R0I2PEeKIxp0D2fxnTw" general="_HKLXkI2PEeKIxp0D2fxnTw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_GcVaII2PEeKIxp0D2fxnTw" name="Package1"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_HKLXkI2PEeKIxp0D2fxnTw" name="Class2"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_HXD9AI2PEeKIxp0D2fxnTw" name="Class3"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MEA0UI2PEeKIxp0D2fxnTw" name="class3_class1_1" memberEnd="_MEA0UY2PEeKIxp0D2fxnTw _MEANQI2PEeKIxp0D2fxnTw" navigableOwnedEnd="_MEANQI2PEeKIxp0D2fxnTw">
+    <ownedEnd xmi:id="_MEA0UY2PEeKIxp0D2fxnTw" name="class3" type="_HXD9AI2PEeKIxp0D2fxnTw" association="_MEA0UI2PEeKIxp0D2fxnTw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MEA0Uo2PEeKIxp0D2fxnTw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MEA0U42PEeKIxp0D2fxnTw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_MEANQI2PEeKIxp0D2fxnTw" name="class1" type="_FfCEYI2PEeKIxp0D2fxnTw" association="_MEA0UI2PEeKIxp0D2fxnTw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MEANQY2PEeKIxp0D2fxnTw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MEANQo2PEeKIxp0D2fxnTw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_M2A5AI2PEeKIxp0D2fxnTw" name="Usage1" client="_FfCEYI2PEeKIxp0D2fxnTw" supplier="_GcVaII2PEeKIxp0D2fxnTw"/>
+  <profileApplication xmi:id="_cpGXQI2PEeKxY8efZJ8jqA">
+    <eAnnotations xmi:id="_cpG-UI2PEeKxY8efZJ8jqA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="smarty.profile.uml#_OaSVgIEVEeKfhKWYalU4oQ"/>
+    </eAnnotations>
+    <appliedProfile href="smarty.profile.uml#_pWQg0HnPEeKAopGwrqrm1w"/>
+  </profileApplication>
+</uml:Model>

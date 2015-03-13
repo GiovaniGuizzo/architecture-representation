@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:smartyProfile="http:///schemas/smartyProfile/_HFLycBygEeOSUsTHUSsmgQ/1" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/smartyProfile/_HFLycBygEeOSUsTHUSsmgQ/1 resources/smarty.profile.uml#_HFMZgBygEeOSUsTHUSsmgQ">
+  <uml:Model xmi:id="_cooD4LmGEeKQQp7P9cQvNQ" name="model">
+    <ownedComment xmi:id="_Z0QtcEiiEeOBYr4tAy2jEA" annotatedElement="199339390">
+      <body> </body>
+    </ownedComment>
+    <packagedElement xmi:type="uml:Class" xmi:id="199339390" name="Employee">
+      <generalization xmi:id="7ee4b3eb-c126-4388-80a1-4348a9de94b4" general="123123123123"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="123123123123" name="Casa"/>
+    <profileApplication xmi:id="_AZMtQMLoEeK4buShvBMouA">
+      <eAnnotations xmi:id="_AZV3MMLoEeK4buShvBMouA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="resources/smarty.profile.uml#_HFMZgBygEeOSUsTHUSsmgQ"/>
+      </eAnnotations>
+      <appliedProfile href="resources/smarty.profile.uml#_9ppH0MeqEeK-FvYCaEYIKA"/>
+    </profileApplication>
+    <profileApplication xmi:id="_AZWeQMLoEeK4buShvBMouA">
+      <eAnnotations xmi:id="_AZdzAMLoEeK4buShvBMouA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="resources/perfilConcerns.profile.uml#_SsrrURWgEeObs-pQrJ2skQ"/>
+      </eAnnotations>
+      <appliedProfile href="resources/perfilConcerns.profile.uml#_9v_84HqaEeK1gM_kVgXLQw"/>
+    </profileApplication>
+  </uml:Model>
+  <smartyProfile:mandatory xmi:id="5816b28f-38b1-4c64-a6b7-b2083e8c0be1" base_Class="123123123123" rootVP="123123123123" variabilities=""/>
+  <smartyProfile:variability xmi:id="_qDNoUEiiEeOBYr4tAy2jEA" base_Comment="_Z0QtcEiiEeOBYr4tAy2jEA" name="teste" minSelection="1" maxSelection="1" variants="Casa"/>
+  <smartyProfile:variationPoint xmi:id="_zbjQsEiiEeOBYr4tAy2jEA" base_Class="199339390" numberOfVariants="1" variants="Casa" variabilities="teste&#xA;"/>
+</xmi:XMI>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_5LLokEu5EeOo6_xs591nlw" name="model">
+  <packagedElement xmi:type="uml:Package" xmi:id="_6eY84Eu5EeOo6_xs591nlw" name="Package1">
+    <packagedElement xmi:type="uml:Package" xmi:id="_7tTAAEu5EeOo6_xs591nlw" name="nestedUm"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_9XEaMEu5EeOo6_xs591nlw" name="nestedDois"/>
+  </packagedElement>
+</uml:Model>

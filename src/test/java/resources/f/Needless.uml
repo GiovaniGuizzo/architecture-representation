@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:perfilConcerns="http:///schemas/perfilConcerns/_zcmaABTjEeORY8N5zhv4gw/17" xmlns:smartyProfile="http:///schemas/smartyProfile/_UxXRUMerEeKEj-QXx-6k3A/0" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/perfilConcerns/_zcmaABTjEeORY8N5zhv4gw/17 perfilConcerns.profile.uml#_zcmaARTjEeORY8N5zhv4gw http:///schemas/smartyProfile/_UxXRUMerEeKEj-QXx-6k3A/0 smarty.profile.uml#_Uxa7scerEeKEj-QXx-6k3A">
+  <uml:Model xmi:id="_VDTUwBTtEeORY8N5zhv4gw" name="model">
+    <packagedElement xmi:type="uml:Class" xmi:id="_B3LzQBTvEeORY8N5zhv4gw" name="Class1"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_F3O9wBTuEeORY8N5zhv4gw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_F3O9wRTuEeORY8N5zhv4gw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="perfilConcerns.profile.uml#_zcmaARTjEeORY8N5zhv4gw"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="perfilConcerns.profile.uml#_9v_84HqaEeK1gM_kVgXLQw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="__GNgcBTuEeORY8N5zhv4gw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__GNgcRTuEeORY8N5zhv4gw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="smarty.profile.uml#_Uxa7scerEeKEj-QXx-6k3A"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="smarty.profile.uml#_9ppH0MeqEeK-FvYCaEYIKA"/>
+    </profileApplication>
+  </uml:Model>
+  <perfilConcerns:action xmi:id="_EjdzUBTvEeORY8N5zhv4gw" base_Class="_B3LzQBTvEeORY8N5zhv4gw"/>
+  <perfilConcerns:bowling xmi:id="_EkwMwBTvEeORY8N5zhv4gw" base_Class="_B3LzQBTvEeORY8N5zhv4gw"/>
+  <smartyProfile:variationPoint xmi:id="_ElEV0BTvEeORY8N5zhv4gw" base_Class="_B3LzQBTvEeORY8N5zhv4gw"/>
+</xmi:XMI>

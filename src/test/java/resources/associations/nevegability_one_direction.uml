@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_ZzXpkCC2EeO_S6jq8lDYpw" name="model">
+  <packagedElement xmi:type="uml:Class" xmi:id="_aX9kYCC2EeO_S6jq8lDYpw" name="Class1"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_alFaYCC2EeO_S6jq8lDYpw" name="Class2"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_cB7L0CC2EeO_S6jq8lDYpw" name="Edipo" memberEnd="_cB7L0SC2EeO_S6jq8lDYpw _cB6kwCC2EeO_S6jq8lDYpw" navigableOwnedEnd="_cB6kwCC2EeO_S6jq8lDYpw">
+    <ownedEnd xmi:id="_cB7L0SC2EeO_S6jq8lDYpw" name="class1" type="_aX9kYCC2EeO_S6jq8lDYpw" association="_cB7L0CC2EeO_S6jq8lDYpw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cB7L0iC2EeO_S6jq8lDYpw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cB7L0yC2EeO_S6jq8lDYpw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_cB6kwCC2EeO_S6jq8lDYpw" name="class2" type="_alFaYCC2EeO_S6jq8lDYpw" association="_cB7L0CC2EeO_S6jq8lDYpw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cB6kwSC2EeO_S6jq8lDYpw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cB6kwiC2EeO_S6jq8lDYpw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>

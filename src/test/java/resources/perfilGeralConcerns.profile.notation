@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_HyTFQHq8EeK1gM_kVgXLQw" type="PapyrusUMLProfileDiagram" name="NewDiagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_QakioHq8EeK1gM_kVgXLQw" type="1026" fontName="Lucida Grande" fontHeight="11" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QalJsHq8EeK1gM_kVgXLQw" source="ShadowFigure">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QalJsXq8EeK1gM_kVgXLQw" key="ShadowFigure_Value" value="false"/>
+    </eAnnotations>
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QalJsnq8EeK1gM_kVgXLQw" source="displayNameLabelIcon">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QalJs3q8EeK1gM_kVgXLQw" key="displayNameLabelIcon_value" value="false"/>
+    </eAnnotations>
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QalJtHq8EeK1gM_kVgXLQw" source="QualifiedName">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QalJtXq8EeK1gM_kVgXLQw" key="QualifiedNameDepth" value="1000"/>
+    </eAnnotations>
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TasrwHq8EeK1gM_kVgXLQw" source="Stereotype_Annotation">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_edgfoHrBEeK1gM_kVgXLQw" key="StereotypeWithQualifiedNameList" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_edgfoXrBEeK1gM_kVgXLQw" key="StereotypeList" value="profile::concern"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_edgfonrBEeK1gM_kVgXLQw" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_edgfo3rBEeK1gM_kVgXLQw" key="PropStereoDisplay" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_edgfpHrBEeK1gM_kVgXLQw" key="StereotypePropertyLocation" value="Compartment"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_QalJtnq8EeK1gM_kVgXLQw" type="1034"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_QalJt3q8EeK1gM_kVgXLQw" type="1071">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_QalJuHq8EeK1gM_kVgXLQw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_QalJuXq8EeK1gM_kVgXLQw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_QalJunq8EeK1gM_kVgXLQw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QalJu3q8EeK1gM_kVgXLQw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_QalJvHq8EeK1gM_kVgXLQw" visible="false" type="1019">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_QalJvXq8EeK1gM_kVgXLQw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_QalJvnq8EeK1gM_kVgXLQw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_QalJv3q8EeK1gM_kVgXLQw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QalJwHq8EeK1gM_kVgXLQw"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="perfilGeralConcerns.profile.uml#_QajUgHq8EeK1gM_kVgXLQw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QakioXq8EeK1gM_kVgXLQw" x="288" y="170" width="200"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_5fhGsHq8EeK1gM_kVgXLQw" type="1031" fontName="Lucida Grande" fontHeight="11" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5fhtwHq8EeK1gM_kVgXLQw" source="ShadowFigure">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5fhtwXq8EeK1gM_kVgXLQw" key="ShadowFigure_Value" value="false"/>
+    </eAnnotations>
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5fhtwnq8EeK1gM_kVgXLQw" source="displayNameLabelIcon">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5fhtw3q8EeK1gM_kVgXLQw" key="displayNameLabelIcon_value" value="false"/>
+    </eAnnotations>
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5fhtxHq8EeK1gM_kVgXLQw" source="QualifiedName">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5fhtxXq8EeK1gM_kVgXLQw" key="QualifiedNameDepth" value="1000"/>
+    </eAnnotations>
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5fn0YHq8EeK1gM_kVgXLQw" source="Stereotype_Annotation">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5fn0YXq8EeK1gM_kVgXLQw" key="StereotypeWithQualifiedNameList" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5fn0Ynq8EeK1gM_kVgXLQw" key="StereotypeList" value="StandardProfileL2::Metaclass"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5fn0Y3q8EeK1gM_kVgXLQw" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5fn0ZHq8EeK1gM_kVgXLQw" key="PropStereoDisplay" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5fobcHq8EeK1gM_kVgXLQw" key="StereotypePropertyLocation" value="Compartment"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_5fhtxnq8EeK1gM_kVgXLQw" type="1084"/>
+    <element xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5fhtx3q8EeK1gM_kVgXLQw" x="351" y="9"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_HyTFQXq8EeK1gM_kVgXLQw"/>
+  <element xmi:type="uml:Profile" href="perfilGeralConcerns.profile.uml#_HySeMHq8EeK1gM_kVgXLQw"/>
+  <edges xmi:type="notation:Connector" xmi:id="_5wzrAHq8EeK1gM_kVgXLQw" type="1013" source="_QakioHq8EeK1gM_kVgXLQw" target="_5fhGsHq8EeK1gM_kVgXLQw" lineColor="0">
+    <styles xmi:type="notation:FontStyle" xmi:id="_5wzrAXq8EeK1gM_kVgXLQw" fontName="Lucida Grande" fontHeight="11"/>
+    <element xmi:type="uml:Extension" href="perfilGeralConcerns.profile.uml#_5wxOwXq8EeK1gM_kVgXLQw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5wzrAnq8EeK1gM_kVgXLQw" points="[37, -50, -86, 105]$[121, -180, -2, -25]"/>
+  </edges>
+</notation:Diagram>

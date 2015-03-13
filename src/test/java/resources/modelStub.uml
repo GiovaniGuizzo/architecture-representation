@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_kOMrUIaHEeK7CddM2ilhgg" name="modelStub">
+  <packagedElement xmi:type="uml:Class" xmi:id="_kOMrUYaHEeK7CddM2ilhgg" name="Bar"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_kOMrVYaHEeK7CddM2ilhgg" name="Foo"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_kOMrVoaHEeK7CddM2ilhgg" memberEnd="_kOMrUoaHEeK7CddM2ilhgg _kOMrV4aHEeK7CddM2ilhgg" navigableOwnedEnd="_kOMrUoaHEeK7CddM2ilhgg">
+    <ownedEnd xmi:id="_kOMrV4aHEeK7CddM2ilhgg" name="" type="_kOMrUYaHEeK7CddM2ilhgg" association="_kOMrVoaHEeK7CddM2ilhgg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kOMrWIaHEeK7CddM2ilhgg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kOMrWYaHEeK7CddM2ilhgg" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_kOMrUoaHEeK7CddM2ilhgg" name="orders" type="_kOMrVYaHEeK7CddM2ilhgg" aggregation="composite" association="_kOMrVoaHEeK7CddM2ilhgg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kOMrU4aHEeK7CddM2ilhgg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kOMrVIaHEeK7CddM2ilhgg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <profileApplication xmi:id="_HsODIIaIEeKZyvMPi8ed6A">
+    <eAnnotations xmi:id="_HsOqMIaIEeKZyvMPi8ed6A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="smarty.profile.uml#_OaSVgIEVEeKfhKWYalU4oQ"/>
+    </eAnnotations>
+    <appliedProfile href="smarty.profile.uml#_pWQg0HnPEeKAopGwrqrm1w"/>
+  </profileApplication>
+</uml:Model>

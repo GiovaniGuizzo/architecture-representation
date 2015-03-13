@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_T2_y0I1rEeKIxp0D2fxnTw" name="model">
+  <packagedElement xmi:type="uml:Class" xmi:id="_deFB0I1rEeKIxp0D2fxnTw" clientDependency="_jmvpMI1rEeKIxp0D2fxnTw _eVdmsI10EeKIxp0D2fxnTw" name="Class1"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_hfnkoI1rEeKIxp0D2fxnTw" name="Package1"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_jmvpMI1rEeKIxp0D2fxnTw" name="Usage1" client="_deFB0I1rEeKIxp0D2fxnTw" supplier="_hfnkoI1rEeKIxp0D2fxnTw"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_coNasI10EeKIxp0D2fxnTw" name="Package2"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_eVdmsI10EeKIxp0D2fxnTw" name="Usage2" client="_deFB0I1rEeKIxp0D2fxnTw" supplier="_coNasI10EeKIxp0D2fxnTw"/>
+  <profileApplication xmi:id="_Daw1oI2GEeKxY8efZJ8jqA">
+    <eAnnotations xmi:id="_Daw1oY2GEeKxY8efZJ8jqA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="smarty.profile.uml#_OaSVgIEVEeKfhKWYalU4oQ"/>
+    </eAnnotations>
+    <appliedProfile href="smarty.profile.uml#_pWQg0HnPEeKAopGwrqrm1w"/>
+  </profileApplication>
+</uml:Model>

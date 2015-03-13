@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:profile="http:///schemas/profile/_E4JoUHq8EeK1gM_kVgXLQw/2" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/profile/_E4JoUHq8EeK1gM_kVgXLQw/2 concern.profile.uml#_E4JoUXq8EeK1gM_kVgXLQw">
+  <uml:Profile xmi:id="_HySeMHq8EeK1gM_kVgXLQw" name="profile" metaclassReference="_5fdcUHq8EeK1gM_kVgXLQw">
+    <eAnnotations xmi:id="_Yx4y4Xq8EeK1gM_kVgXLQw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <contents xmi:type="ecore:EPackage" xmi:id="_fDjL8XrBEeK1gM_kVgXLQw" name="profile" nsURI="http:///schemas/profile/_fDjL8HrBEeK1gM_kVgXLQw/7" nsPrefix="profile">
+        <eAnnotations xmi:id="_fDjL93rBEeK1gM_kVgXLQw" source="PapyrusVersion">
+          <details xmi:id="_fDjL-HrBEeK1gM_kVgXLQw" key="Version" value="0.0.5"/>
+          <details xmi:id="_fDjL-XrBEeK1gM_kVgXLQw" key="Comment" value=""/>
+          <details xmi:id="_fDjL-nrBEeK1gM_kVgXLQw" key="Copyright" value=""/>
+          <details xmi:id="_fDjL-3rBEeK1gM_kVgXLQw" key="Date" value="2013-02-19"/>
+          <details xmi:id="_fDjL_HrBEeK1gM_kVgXLQw" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_fDjL8nrBEeK1gM_kVgXLQw" name="persistence">
+          <eAnnotations xmi:id="_fDjL83rBEeK1gM_kVgXLQw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_QajUgHq8EeK1gM_kVgXLQw"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_fDjL9HrBEeK1gM_kVgXLQw" name="base_Class" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_cJYg4XrBEeK1gM_kVgXLQw" name="profile" nsURI="http:///schemas/profile/_cJYg4HrBEeK1gM_kVgXLQw/6" nsPrefix="profile">
+        <eAnnotations xmi:id="_cJZH8HrBEeK1gM_kVgXLQw" source="PapyrusVersion">
+          <details xmi:id="_cJZH8XrBEeK1gM_kVgXLQw" key="Version" value="0.0.4"/>
+          <details xmi:id="_cJZH8nrBEeK1gM_kVgXLQw" key="Comment" value=""/>
+          <details xmi:id="_cJZH83rBEeK1gM_kVgXLQw" key="Copyright" value=""/>
+          <details xmi:id="_cJZH9HrBEeK1gM_kVgXLQw" key="Date" value="2013-02-19"/>
+          <details xmi:id="_cJZH9XrBEeK1gM_kVgXLQw" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_cJYg4nrBEeK1gM_kVgXLQw" name="persistence">
+          <eAnnotations xmi:id="_cJYg43rBEeK1gM_kVgXLQw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_QajUgHq8EeK1gM_kVgXLQw"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_cJYg5HrBEeK1gM_kVgXLQw" name="base_Class" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_VN25MHrBEeK1gM_kVgXLQw" name="profile" nsURI="http:///schemas/profile/_VN2SIHrBEeK1gM_kVgXLQw/5" nsPrefix="profile">
+        <eAnnotations xmi:id="_VN25NnrBEeK1gM_kVgXLQw" source="PapyrusVersion">
+          <details xmi:id="_VN25N3rBEeK1gM_kVgXLQw" key="Version" value="0.0.3"/>
+          <details xmi:id="_VN25OHrBEeK1gM_kVgXLQw" key="Comment" value=""/>
+          <details xmi:id="_VN25OXrBEeK1gM_kVgXLQw" key="Copyright" value=""/>
+          <details xmi:id="_VN25OnrBEeK1gM_kVgXLQw" key="Date" value="2013-02-19"/>
+          <details xmi:id="_VN25O3rBEeK1gM_kVgXLQw" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_VN25MXrBEeK1gM_kVgXLQw" name="persistence">
+          <eAnnotations xmi:id="_VN25MnrBEeK1gM_kVgXLQw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_QajUgHq8EeK1gM_kVgXLQw"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_VN25M3rBEeK1gM_kVgXLQw" name="base_Class" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_TcfpQXrBEeK1gM_kVgXLQw" name="profile" nsURI="http:///schemas/profile/_TcfpQHrBEeK1gM_kVgXLQw/4" nsPrefix="profile">
+        <eAnnotations xmi:id="_TcfpR3rBEeK1gM_kVgXLQw" source="PapyrusVersion">
+          <details xmi:id="_TcfpSHrBEeK1gM_kVgXLQw" key="Version" value="0.0.2"/>
+          <details xmi:id="_TcfpSXrBEeK1gM_kVgXLQw" key="Comment" value=""/>
+          <details xmi:id="_TcfpSnrBEeK1gM_kVgXLQw" key="Copyright" value=""/>
+          <details xmi:id="_TcfpS3rBEeK1gM_kVgXLQw" key="Date" value="2013-02-19"/>
+          <details xmi:id="_TcfpTHrBEeK1gM_kVgXLQw" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_TcfpQnrBEeK1gM_kVgXLQw" name="persistence">
+          <eAnnotations xmi:id="_TcfpQ3rBEeK1gM_kVgXLQw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_QajUgHq8EeK1gM_kVgXLQw"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_TcfpRHrBEeK1gM_kVgXLQw" name="base_Class" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_6VxZQXq8EeK1gM_kVgXLQw" name="profile" nsURI="http:///schemas/profile/_6VxZQHq8EeK1gM_kVgXLQw/3" nsPrefix="profile">
+        <eAnnotations xmi:id="_6VxZR3q8EeK1gM_kVgXLQw" source="PapyrusVersion">
+          <details xmi:id="_6VxZSHq8EeK1gM_kVgXLQw" key="Version" value="0.0.1"/>
+          <details xmi:id="_6VxZSXq8EeK1gM_kVgXLQw" key="Comment" value=""/>
+          <details xmi:id="_6VxZSnq8EeK1gM_kVgXLQw" key="Copyright" value=""/>
+          <details xmi:id="_6VxZS3q8EeK1gM_kVgXLQw" key="Date" value="2013-02-19"/>
+          <details xmi:id="_6VxZTHq8EeK1gM_kVgXLQw" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_6VxZQnq8EeK1gM_kVgXLQw" name="persistence">
+          <eAnnotations xmi:id="_6VxZQ3q8EeK1gM_kVgXLQw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_QajUgHq8EeK1gM_kVgXLQw"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_6VxZRHq8EeK1gM_kVgXLQw" name="base_Class" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_zXta8Xq8EeK1gM_kVgXLQw" name="profile" nsURI="http:///schemas/profile/_zXta8Hq8EeK1gM_kVgXLQw/2" nsPrefix="profile">
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_zXta8nq8EeK1gM_kVgXLQw" name="persistence">
+          <eAnnotations xmi:id="_zXta83q8EeK1gM_kVgXLQw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_QajUgHq8EeK1gM_kVgXLQw"/>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_jFgXwXq8EeK1gM_kVgXLQw" name="profile" nsURI="http:///schemas/profile/_jFgXwHq8EeK1gM_kVgXLQw/1" nsPrefix="profile">
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_jFgXwnq8EeK1gM_kVgXLQw" name="persistence">
+          <eAnnotations xmi:id="_jFgXw3q8EeK1gM_kVgXLQw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_QajUgHq8EeK1gM_kVgXLQw"/>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_Yx4y4nq8EeK1gM_kVgXLQw" name="profile" nsURI="http:///schemas/profile/_Yx4y4Hq8EeK1gM_kVgXLQw/0" nsPrefix="profile">
+        <eAnnotations xmi:id="_Yx5Z8Hq8EeK1gM_kVgXLQw" source="PapyrusVersion">
+          <details xmi:id="_Yx5Z8Xq8EeK1gM_kVgXLQw" key="Version" value="0.0.1"/>
+          <details xmi:id="_Yx5Z8nq8EeK1gM_kVgXLQw" key="Comment" value=""/>
+          <details xmi:id="_Yx5Z83q8EeK1gM_kVgXLQw" key="Copyright" value=""/>
+          <details xmi:id="_Yx5Z9Hq8EeK1gM_kVgXLQw" key="Date" value="2013-02-19"/>
+          <details xmi:id="_Yx5Z9Xq8EeK1gM_kVgXLQw" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_Yx4y43q8EeK1gM_kVgXLQw" name="persistence">
+          <eAnnotations xmi:id="_Yx4y5Hq8EeK1gM_kVgXLQw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_QajUgHq8EeK1gM_kVgXLQw"/>
+        </eClassifiers>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_5fdcUHq8EeK1gM_kVgXLQw" alias="Class">
+      <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_QajUgHq8EeK1gM_kVgXLQw" name="persistence">
+      <ownedAttribute xmi:id="_5wxOwHq8EeK1gM_kVgXLQw" name="base_Class" association="_5wxOwXq8EeK1gM_kVgXLQw">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_5wxOwXq8EeK1gM_kVgXLQw" name="E_persistence_Class1" memberEnd="_5wxOwnq8EeK1gM_kVgXLQw _5wxOwHq8EeK1gM_kVgXLQw">
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_5wxOwnq8EeK1gM_kVgXLQw" name="extension_persistence" type="_QajUgHq8EeK1gM_kVgXLQw" aggregation="composite" association="_5wxOwXq8EeK1gM_kVgXLQw"/>
+    </packagedElement>
+    <profileApplication xmi:id="_bX0hEHrBEeK1gM_kVgXLQw">
+      <eAnnotations xmi:id="_bYG08HrBEeK1gM_kVgXLQw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="concern.profile.uml#_E4JoUXq8EeK1gM_kVgXLQw"/>
+      </eAnnotations>
+      <appliedProfile href="concern.profile.uml#_22AjQHq7EeK1gM_kVgXLQw"/>
+    </profileApplication>
+  </uml:Profile>
+  <profile:concern xmi:id="_ec_iQHrBEeK1gM_kVgXLQw" base_Stereotype="_QajUgHq8EeK1gM_kVgXLQw"/>
+</xmi:XMI>

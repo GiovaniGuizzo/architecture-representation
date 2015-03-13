@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_copSALmGEeKQQp7P9cQvNQ" type="PapyrusUMLClassDiagram" name="NewDiagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="037fe21e-982c-4a30-883f-303bec7f8490" type="2008" fontName="Lucida Grande" fontHeight="11" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="426bcec5-fe6d-4203-a013-12e18ebb46fc" type="5029"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="f76f2611-cdef-45ca-a4b9-0dffbdab0a38" type="7017">
+      <styles xmi:type="notation:TitleStyle" xmi:id="d264081f-f5de-4c8e-aed9-6d0b3c437609"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="add1fa98-6cd9-473f-b328-c922f2e129f2"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="bbb49cce-52dd-4c8f-be99-a932ff3ea941"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="cd95f0ea-1c3d-4912-a255-2a755be041c4"/>
+    </children>
+    <element xmi:type="uml:Class" href="edipo2.uml#12c2c964-416d-4ae8-b888-4d72e2daeb82"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="ba22c29a-1491-4638-994f-115004f93f91" x="459" y="856"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="3e6df767-361c-460a-8c1a-b85100dcbff5" type="2008" fontName="Lucida Grande" fontHeight="11" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="bad61444-ae48-42b9-b253-dec4a9d5189a" source="Stereotype_Annotation">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="49e0da7a-13e5-4c88-8fd4-647bea210efd" key="StereotypeWithQualifiedNameList" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="6ec1c935-e0af-4fea-b40d-087bdc6ac848" key="StereotypeList" value="smartyProfile::mandatory"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="2bfb9ce5-79c3-4d4e-ad2f-2f824ab4f308" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="47e6ac36-d88d-434f-a65d-38d3c17a122d" key="PropStereoDisplay" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="54a34dac-7cb7-45f7-bf38-6bfd7c773891" key="StereotypePropertyLocation" value="Compartment"/>
+    </eAnnotations>
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="645ad053-7fcb-4ac0-9956-653a50dcd9a8" source="ecore:Stereotype_Annotation">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="d7b19e3e-93de-42dc-b798-2b5984fbbb20" key="StereotypeWithQualifiedNameList" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="88285712-7cea-4e5d-8573-f874a113f32f" key="StereotypeList" value="smartyProfile::mandatory"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="b8fefb8a-79fc-4a6a-b99f-f654fd19e0e7" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="93d30772-027a-4b41-a85a-6d1360136c2c" key="PropStereoDisplay" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="21326695-237e-4d42-aba0-b719331979bc" key="StereotypePropertyLocation" value="Compartment"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="badecdbd-d513-4241-ab21-159e6e4b8969" type="5029"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="644cf78d-62cb-4ffb-8049-c5ec27f19157" type="7017">
+      <styles xmi:type="notation:TitleStyle" xmi:id="04003227-4e9a-40f7-b11f-9fa671c92901"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="da64c2b6-601a-4a06-adf2-404f3860c2fe"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="09b274ff-5c2c-4d13-b03d-be37b537fbff"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="29fac66b-8ee9-4085-96e9-d1c02ac8dd9a"/>
+    </children>
+    <element xmi:type="uml:Class" href="edipo2.uml#e4374aef-8f22-4644-8060-f138ea9df753"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="0138408c-50bf-423a-a51a-4409084aacf4" x="562" y="685"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_copSAbmGEeKQQp7P9cQvNQ"/>
+  <element xmi:type="uml:Model" href="edipo2.uml#_cooD4LmGEeKQQp7P9cQvNQ"/>
+  <edges xmi:type="notation:Connector" xmi:id="504b8c7f-e490-4b66-b187-a7c76912f382" type="4002" source="037fe21e-982c-4a30-883f-303bec7f8490" target="3e6df767-361c-460a-8c1a-b85100dcbff5" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="e81aa816-709f-4f7c-9f59-b96a530d7575" type="6007"/>
+    <element xmi:type="uml:Generalization" href="edipo2.uml#4c267bb8-e613-45a3-9e81-1dc10e7ed953"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="fdbb0cf5-d691-4438-bcd9-c4723d69f6fe" points="[0, 0, 476, 181]$[-467, -170, 9, 11]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="7e3130af-b185-4abf-99f8-6e1a9dfb6212" id="(0.42,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="328d7799-536a-40d9-82a8-5e1a2977ec71" id="(0.82,0.89)"/>
+  </edges>
+</notation:Diagram>

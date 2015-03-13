@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_OGwpsF6JEeO1TpRx12rxIQ" name="model">
+  <packagedElement xmi:type="uml:Package" xmi:id="_O5wM4F6JEeO1TpRx12rxIQ" clientDependency="_TK-KcF6JEeO1TpRx12rxIQ" name="Package1">
+    <packagedElement xmi:type="uml:Class" xmi:id="_Pjtv4F6JEeO1TpRx12rxIQ" name="Class1">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_RwctMF6JEeO1TpRx12rxIQ" name="class3" type="_QFqmYF6JEeO1TpRx12rxIQ" association="_RwctM16JEeO1TpRx12rxIQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_RwctMV6JEeO1TpRx12rxIQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RwctMl6JEeO1TpRx12rxIQ" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_RwctM16JEeO1TpRx12rxIQ" name="class1_class3_1" memberEnd="_RwctNF6JEeO1TpRx12rxIQ _RwctMF6JEeO1TpRx12rxIQ">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_RwctNF6JEeO1TpRx12rxIQ" name="class1" type="_Pjtv4F6JEeO1TpRx12rxIQ" association="_RwctM16JEeO1TpRx12rxIQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_RwctNV6JEeO1TpRx12rxIQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RwctNl6JEeO1TpRx12rxIQ" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_TK-KcF6JEeO1TpRx12rxIQ" name="Dependency1" client="_O5wM4F6JEeO1TpRx12rxIQ" supplier="_QUeecF6JEeO1TpRx12rxIQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_QFqmYF6JEeO1TpRx12rxIQ" name="Class3"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_QUeecF6JEeO1TpRx12rxIQ" name="Class2"/>
+</uml:Model>

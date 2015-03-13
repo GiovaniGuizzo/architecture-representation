@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:perfilConcerns="http:///schemas/perfilConcerns/_SsrrUBWgEeObs-pQrJ2skQ/19" xmlns:smartyProfile="http:///schemas/smartyProfile/_HFLycBygEeOSUsTHUSsmgQ/1" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/perfilConcerns/_SsrrUBWgEeObs-pQrJ2skQ/19 agmfinal/perfilConcerns.profile.uml#_SsrrURWgEeObs-pQrJ2skQ http:///schemas/smartyProfile/_HFLycBygEeOSUsTHUSsmgQ/1 agmfinal/smarty.profile.uml#_HFMZgBygEeOSUsTHUSsmgQ">
+  <uml:Model xmi:id="_xRQbkGZrEeOX3sYOs19yOA" name="model">
+    <packagedElement xmi:type="uml:Package" xmi:id="_Eu9KYGZsEeOX3sYOs19yOA" clientDependency="_oHgIIGZzEeOX3sYOs19yOA" name="Package1GUI">
+      <packagedElement xmi:type="uml:Realization" xmi:id="_oHgIIGZzEeOX3sYOs19yOA" name="" client="_Eu9KYGZsEeOX3sYOs19yOA" supplier="_kBNBIGZzEeOX3sYOs19yOA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_kBNBIGZzEeOX3sYOs19yOA" name="Interface1">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_l3emQGZzEeOX3sYOs19yOA" name="operacao"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_KyOscGcREeOREeq9VI9HwQ" name="Package2GUI">
+      <packagedElement xmi:type="uml:Class" xmi:id="_NNhqMGcREeOREeq9VI9HwQ" name="Class1">
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_PI-qQGcREeOREeq9VI9HwQ" name="Operation1"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_NaHUsGcREeOREeq9VI9HwQ" name="Class2">
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_Olx2kGcREeOREeq9VI9HwQ" name="Operation2"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_BPG_YGZsEeOX3sYOs19yOA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BPn8wGZsEeOX3sYOs19yOA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="agmfinal/perfilConcerns.profile.uml#_SsrrURWgEeObs-pQrJ2skQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="agmfinal/perfilConcerns.profile.uml#_9v_84HqaEeK1gM_kVgXLQw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_BPxGsGZsEeOX3sYOs19yOA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BP4bcGZsEeOX3sYOs19yOA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="agmfinal/smarty.profile.uml#_HFMZgBygEeOSUsTHUSsmgQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="agmfinal/smarty.profile.uml#_9ppH0MeqEeK-FvYCaEYIKA"/>
+    </profileApplication>
+  </uml:Model>
+  <smartyProfile:interface xmi:id="_lpOu4GZzEeOX3sYOs19yOA" base_Class="_kBNBIGZzEeOX3sYOs19yOA"/>
+  <perfilConcerns:brickles xmi:id="_m3t7QGZzEeOX3sYOs19yOA" base_Operation="_l3emQGZzEeOX3sYOs19yOA"/>
+  <perfilConcerns:brickles xmi:id="_Qhbq8GcREeOREeq9VI9HwQ" base_Class="_NNhqMGcREeOREeq9VI9HwQ"/>
+  <perfilConcerns:brickles xmi:id="_RHV0YGcREeOREeq9VI9HwQ" base_Class="_NaHUsGcREeOREeq9VI9HwQ"/>
+</xmi:XMI>

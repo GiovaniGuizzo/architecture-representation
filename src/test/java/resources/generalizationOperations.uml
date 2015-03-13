@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_bSJbAF6LEeO1TpRx12rxIQ" name="model">
+  <packagedElement xmi:type="uml:Class" xmi:id="_cG5RsF6LEeO1TpRx12rxIQ" name="Client"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_e3B3AF6LEeO1TpRx12rxIQ" name="NaturalClient">
+    <generalization xmi:type="uml:Generalization" xmi:id="_iPPI8F6LEeO1TpRx12rxIQ" general="_cG5RsF6LEeO1TpRx12rxIQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_fK8RgF6LEeO1TpRx12rxIQ" name="LegalClient">
+    <generalization xmi:type="uml:Generalization" xmi:id="_gL-QsF6LEeO1TpRx12rxIQ" general="_cG5RsF6LEeO1TpRx12rxIQ"/>
+  </packagedElement>
+</uml:Model>

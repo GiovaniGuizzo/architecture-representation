@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_H4YgMEcBEeOZ2Z5FzKIyaw" name="model">
+  <packagedElement xmi:type="uml:Class" xmi:id="_PLvZEEcBEeOZ2Z5FzKIyaw" name="Class1" isAbstract="true">
+    <ownedOperation xmi:id="_XSLUsEcBEeOZ2Z5FzKIyaw" name="Operation1" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_QrhJwEcBEeOZ2Z5FzKIyaw" name="Class2" isAbstract="true">
+    <generalization xmi:id="_SUUTkEcBEeOZ2Z5FzKIyaw" general="_PLvZEEcBEeOZ2Z5FzKIyaw"/>
+    <ownedOperation xmi:id="_dqpSoEcBEeOZ2Z5FzKIyaw" name="Operation2"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_RJKvEEcBEeOZ2Z5FzKIyaw" name="Class3">
+    <generalization xmi:id="_TNjosEcBEeOZ2Z5FzKIyaw" general="_QrhJwEcBEeOZ2Z5FzKIyaw"/>
+    <ownedOperation xmi:id="_fiioYEcBEeOZ2Z5FzKIyaw" name="Operation1"/>
+    <ownedOperation xmi:id="_giiFwEcBEeOZ2Z5FzKIyaw" name="Operation3"/>
+  </packagedElement>
+</uml:Model>

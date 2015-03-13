@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_b3V3ELlpEeKQQp7P9cQvNQ" name="model">
+  <packageImport xmi:id="_oh8rALl1EeKQQp7P9cQvNQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_cZCO4LlpEeKQQp7P9cQvNQ" name="Class1">
+    <ownedAttribute xmi:id="_fIHrULlpEeKQQp7P9cQvNQ" name="class2" type="_di9rYLlpEeKQQp7P9cQvNQ" association="_fII5cLlpEeKQQp7P9cQvNQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fIHrUblpEeKQQp7P9cQvNQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fIHrUrlpEeKQQp7P9cQvNQ" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_di9rYLlpEeKQQp7P9cQvNQ" name="Class2">
+    <ownedAttribute xmi:id="_jh-xELl1EeKQQp7P9cQvNQ" name="name" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kCbywLl1EeKQQp7P9cQvNQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kCutsLl1EeKQQp7P9cQvNQ" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_kCv70Ll1EeKQQp7P9cQvNQ">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="__zeXILl9EeKQQp7P9cQvNQ" name="age" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AAEosLl-EeKQQp7P9cQvNQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AAFPwLl-EeKQQp7P9cQvNQ" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_AAGd4Ll-EeKQQp7P9cQvNQ">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_fII5cLlpEeKQQp7P9cQvNQ" name="class1_class2_1" memberEnd="_fII5cblpEeKQQp7P9cQvNQ _fIHrULlpEeKQQp7P9cQvNQ">
+    <ownedEnd xmi:id="_fII5cblpEeKQQp7P9cQvNQ" name="class1" type="_cZCO4LlpEeKQQp7P9cQvNQ" association="_fII5cLlpEeKQQp7P9cQvNQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fII5crlpEeKQQp7P9cQvNQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fII5c7lpEeKQQp7P9cQvNQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_-GnnALltEeKQQp7P9cQvNQ" name="Class3">
+    <ownedAttribute xmi:id="__YW7sLltEeKQQp7P9cQvNQ" name="class2" type="_di9rYLlpEeKQQp7P9cQvNQ" association="__YXiwLltEeKQQp7P9cQvNQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__YW7sbltEeKQQp7P9cQvNQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__YW7srltEeKQQp7P9cQvNQ" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="__YXiwLltEeKQQp7P9cQvNQ" name="class3_class2_1" memberEnd="__YXiwbltEeKQQp7P9cQvNQ __YW7sLltEeKQQp7P9cQvNQ">
+    <ownedEnd xmi:id="__YXiwbltEeKQQp7P9cQvNQ" name="class3" type="_-GnnALltEeKQQp7P9cQvNQ" association="__YXiwLltEeKQQp7P9cQvNQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__YXiwrltEeKQQp7P9cQvNQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__YXiw7ltEeKQQp7P9cQvNQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_W-hUsLluEeKQQp7P9cQvNQ" clientDependency="_4JXhQLl0EeKQQp7P9cQvNQ" name="Class5">
+    <ownedAttribute xmi:id="_AVO5ALmBEeKQQp7P9cQvNQ" name="address" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ah-UgLmBEeKQQp7P9cQvNQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ah-7kLmBEeKQQp7P9cQvNQ" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_AiAJsLmBEeKQQp7P9cQvNQ">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_4JXhQLl0EeKQQp7P9cQvNQ" name="Dependency1" client="_W-hUsLluEeKQQp7P9cQvNQ" supplier="_-GnnALltEeKQQp7P9cQvNQ"/>
+</uml:Model>

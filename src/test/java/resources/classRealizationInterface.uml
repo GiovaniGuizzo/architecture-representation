@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:smartyProfile="http:///schemas/smartyProfile/_HFLycBygEeOSUsTHUSsmgQ/1" xmlns:smartyProfile_1="http:///schemas/smartyProfile/_-an7sECyEeO4bq-WzR985Q/1" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/smartyProfile/_HFLycBygEeOSUsTHUSsmgQ/1 smarty.profile.uml#_HFMZgBygEeOSUsTHUSsmgQ http:///schemas/smartyProfile/_-an7sECyEeO4bq-WzR985Q/1 smarty.profile.uml#_-asNIECyEeO4bq-WzR985Q">
+  <uml:Model xmi:id="_-9ccwDgeEeO8_ajv-jc4XQ" name="model">
+    <packagedElement xmi:type="uml:Class" xmi:id="_N79qgDgfEeO8_ajv-jc4XQ" name="Class1"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_cy5CgDgfEeO8_ajv-jc4XQ" clientDependency="_irLrkDgfEeO8_ajv-jc4XQ _y4U2UDgkEeO8_ajv-jc4XQ" name="Class2"/>
+    <packagedElement xmi:type="uml:Realization" xmi:id="_irLrkDgfEeO8_ajv-jc4XQ" name="Realization1" client="_cy5CgDgfEeO8_ajv-jc4XQ" supplier="_N79qgDgfEeO8_ajv-jc4XQ"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_wTNOMDgkEeO8_ajv-jc4XQ" name="Class3"/>
+    <packagedElement xmi:type="uml:Realization" xmi:id="_y4U2UDgkEeO8_ajv-jc4XQ" name="Realization2" client="_cy5CgDgfEeO8_ajv-jc4XQ" supplier="_wTNOMDgkEeO8_ajv-jc4XQ"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_L60SIDgfEeO8_ajv-jc4XQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_L6-DIDgfEeO8_ajv-jc4XQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="smarty.profile.uml#_HFMZgBygEeOSUsTHUSsmgQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="smarty.profile.uml#_9ppH0MeqEeK-FvYCaEYIKA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_4Zzh4DgkEeO3rcX2l2Vfyg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4Z0I8DgkEeO3rcX2l2Vfyg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="smarty.profile.uml#_-asNIECyEeO4bq-WzR985Q"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="smarty.profile.uml#_o5pOAMn3EeKFvPutDPHc0Q"/>
+    </profileApplication>
+  </uml:Model>
+  <smartyProfile:interface xmi:id="_gJCe8DgfEeO8_ajv-jc4XQ" base_Class="_N79qgDgfEeO8_ajv-jc4XQ"/>
+  <smartyProfile:interface xmi:id="_yB1TMDgkEeO8_ajv-jc4XQ" base_Class="_wTNOMDgkEeO8_ajv-jc4XQ"/>
+  <smartyProfile_1:interface xmi:id="_5cqtEDgkEeO3rcX2l2Vfyg" base_Class="_N79qgDgfEeO8_ajv-jc4XQ"/>
+  <smartyProfile_1:interface xmi:id="_6ya_EDgkEeO3rcX2l2Vfyg" base_Class="_wTNOMDgkEeO8_ajv-jc4XQ"/>
+</xmi:XMI>

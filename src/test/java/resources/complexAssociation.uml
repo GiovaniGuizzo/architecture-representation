@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_TZNE4IcbEeKyMIl1Rwy2HQ" name="model">
+  <packagedElement xmi:type="uml:Class" xmi:id="_a6pdEIcbEeKyMIl1Rwy2HQ" name="Class1"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_bMT00IcbEeKyMIl1Rwy2HQ" name="Class2"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_bYoZkIcbEeKyMIl1Rwy2HQ" name="Class3"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_e4wRY4cbEeKyMIl1Rwy2HQ" name="class3_class2_1" memberEnd="_e4wRZIcbEeKyMIl1Rwy2HQ _e4wRYIcbEeKyMIl1Rwy2HQ" navigableOwnedEnd="_e4wRYIcbEeKyMIl1Rwy2HQ">
+    <ownedEnd xmi:id="_e4wRZIcbEeKyMIl1Rwy2HQ" name="class3" type="_bYoZkIcbEeKyMIl1Rwy2HQ" association="_e4wRY4cbEeKyMIl1Rwy2HQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_e4wRZYcbEeKyMIl1Rwy2HQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_e4wRZocbEeKyMIl1Rwy2HQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_e4wRYIcbEeKyMIl1Rwy2HQ" name="class2" type="_bMT00IcbEeKyMIl1Rwy2HQ" association="_e4wRY4cbEeKyMIl1Rwy2HQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_e4wRYYcbEeKyMIl1Rwy2HQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_e4wRYocbEeKyMIl1Rwy2HQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_gS2344cbEeKyMIl1Rwy2HQ" name="class2_class1_1" memberEnd="_gS235IcbEeKyMIl1Rwy2HQ _gS234IcbEeKyMIl1Rwy2HQ" navigableOwnedEnd="_gS234IcbEeKyMIl1Rwy2HQ">
+    <ownedEnd xmi:id="_gS235IcbEeKyMIl1Rwy2HQ" name="class2" type="_bMT00IcbEeKyMIl1Rwy2HQ" association="_gS2344cbEeKyMIl1Rwy2HQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gS235YcbEeKyMIl1Rwy2HQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gS235ocbEeKyMIl1Rwy2HQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_gS234IcbEeKyMIl1Rwy2HQ" name="class1" type="_a6pdEIcbEeKyMIl1Rwy2HQ" association="_gS2344cbEeKyMIl1Rwy2HQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gS234YcbEeKyMIl1Rwy2HQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gS234ocbEeKyMIl1Rwy2HQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <profileApplication xmi:id="_MKWcEIccEeKZyvMPi8ed6A">
+    <eAnnotations xmi:id="_MKWcEYccEeKZyvMPi8ed6A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="smarty.profile.uml#_OaSVgIEVEeKfhKWYalU4oQ"/>
+    </eAnnotations>
+    <appliedProfile href="smarty.profile.uml#_pWQg0HnPEeKAopGwrqrm1w"/>
+  </profileApplication>
+</uml:Model>

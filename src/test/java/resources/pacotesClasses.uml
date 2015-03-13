@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:smartyProfile="http:///schemas/smartyProfile/_HFLycBygEeOSUsTHUSsmgQ/1" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/smartyProfile/_HFLycBygEeOSUsTHUSsmgQ/1 agmfinal/smarty.profile.uml#_HFMZgBygEeOSUsTHUSsmgQ">
+  <uml:Model xmi:id="_YkO2gGNdEeO3a-hBDvgKqg" name="model">
+    <packagedElement xmi:type="uml:Package" xmi:id="_ZrL3gGNdEeO3a-hBDvgKqg" name="Package1">
+      <packagedElement xmi:type="uml:Class" xmi:id="_ajWOkGNdEeO3a-hBDvgKqg" name="Class1"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_bN7coGNdEeO3a-hBDvgKqg" name="Package1">
+        <packagedElement xmi:type="uml:Package" xmi:id="_xqtLsGNdEeO3a-hBDvgKqg" name="Package2">
+          <packagedElement xmi:type="uml:Class" xmi:id="_cVvZQGNdEeO3a-hBDvgKqg" name="Foo"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_5SRaAGNdEeO3a-hBDvgKqg" name="Bar"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_UpRnYGNeEeO3a-hBDvgKqg" name="Interface"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_AsehwGNeEeO3a-hBDvgKqg" name="Teste"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_lOSR0GNeEeO3a-hBDvgKqg" name="Interface2"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_T-Lb8GNeEeO3a-hBDvgKqg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_T-e98GNeEeO3a-hBDvgKqg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="agmfinal/smarty.profile.uml#_HFMZgBygEeOSUsTHUSsmgQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="agmfinal/smarty.profile.uml#_9ppH0MeqEeK-FvYCaEYIKA"/>
+    </profileApplication>
+  </uml:Model>
+  <smartyProfile:interface xmi:id="_Yp1SwGNeEeO3a-hBDvgKqg" base_Class="_UpRnYGNeEeO3a-hBDvgKqg"/>
+  <smartyProfile:interface xmi:id="_mUtuYGNeEeO3a-hBDvgKqg" base_Class="_lOSR0GNeEeO3a-hBDvgKqg"/>
+</xmi:XMI>
