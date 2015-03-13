@@ -1,8 +1,14 @@
 package arquitetura.helpers;
 
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Enumeration;
+import java.util.List;
+
 import org.apache.log4j.Level;
 import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 
 /**
  * Configure log level. If you dont wanna log anything on "production" use: {@code setLogLevel(Level.DEBUG}
@@ -13,7 +19,15 @@ import org.apache.log4j.LogManager;
 public class LogConfiguration {
     
     public static void setLogLevel(Level level){
-	LogManager.getRootLogger().setLevel(level);
+	
+	@SuppressWarnings("unchecked")
+	Enumeration<Logger> currentLoggers = LogManager.getCurrentLoggers();
+	ArrayList<Logger> list = Collections.<Logger>list(currentLoggers);
+	List<Logger> loggers = list;
+	loggers.add(LogManager.getRootLogger());
+	for ( Logger logger : loggers ) {
+	    logger.setLevel(level);
+	}
     }
 
 }

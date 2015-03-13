@@ -4,7 +4,6 @@ import org.eclipse.uml2.uml.Association;
 
 import arquitetura.base.ArchitectureHelper;
 import arquitetura.representation.Architecture;
-import arquitetura.representation.relationship.AssociationEnd;
 import arquitetura.representation.relationship.AssociationHelper;
 import arquitetura.representation.relationship.AssociationRelationship;
 

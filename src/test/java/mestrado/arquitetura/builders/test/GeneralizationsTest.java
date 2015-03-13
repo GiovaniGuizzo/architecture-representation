@@ -32,7 +32,7 @@ public class GeneralizationsTest extends TestHelper {
 	
 	@Test
 	public void shouldReplaceChildClass() throws Exception {
-		Architecture a = givenAArchitecture("ReplaceGeneralization");
+		Architecture a = givenAArchitecture("replaceGeneralization");
 		Class class3 = a.findClassByName("Class3").get(0);
 		assertNotNull(class3);
 

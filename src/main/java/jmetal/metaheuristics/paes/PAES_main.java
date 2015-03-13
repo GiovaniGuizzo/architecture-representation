@@ -22,21 +22,20 @@
 package jmetal.metaheuristics.paes;
 
 import java.io.IOException;
-
-import jmetal.core.*;
-import jmetal.operators.mutation.*;
-import jmetal.problems.*                  ;
-import jmetal.problems.DTLZ.*;
-import jmetal.problems.ZDT.*;
-import jmetal.problems.WFG.*;
-import jmetal.problems.LZ09.* ;
-import jmetal.util.Configuration;
-import jmetal.util.JMException;
-
 import java.util.HashMap;
 import java.util.logging.FileHandler;
 import java.util.logging.Logger;
+
+import jmetal.core.Algorithm;
+import jmetal.core.Operator;
+import jmetal.core.Problem;
+import jmetal.core.SolutionSet;
+import jmetal.operators.mutation.MutationFactory;
+import jmetal.problems.Kursawe;
+import jmetal.problems.ProblemFactory;
 import jmetal.qualityIndicator.QualityIndicator;
+import jmetal.util.Configuration;
+import jmetal.util.JMException;
 
 /**
  * Class for configuring and running the PAES algorithm

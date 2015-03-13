@@ -114,14 +114,14 @@ public class InterfaceTest extends TestHelper {
 		Interface inter = a.findInterfaceByName("MyInterface");
 		
 		assertEquals(2, inter.getPatternsOperations().getAllPatterns().size());
-		assertEquals("bridge", inter.getPatternsOperations().getAllPatterns().iterator().next());
+		assertTrue(inter.getPatternsOperations().getAllPatterns().contains("bridge"));
 		
 		generate.generate(a, "pattern_interface");
 		Architecture output = givenAArchitecture2("pattern_interface");
 		Interface interOutput = output.findInterfaceByName("MyInterface");
 		
 		assertEquals(2, interOutput.getPatternsOperations().getAllPatterns().size());
-		assertEquals("bridge", interOutput.getPatternsOperations().getAllPatterns().iterator().next());
+		assertTrue(interOutput.getPatternsOperations().getAllPatterns().contains("bridge"));
 	
 	}
 	

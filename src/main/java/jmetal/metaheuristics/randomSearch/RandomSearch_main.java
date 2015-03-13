@@ -21,24 +21,19 @@
 
 package jmetal.metaheuristics.randomSearch;
 
-import jmetal.core.*;
-import jmetal.operators.crossover.*;
-import jmetal.operators.mutation.*;
-import jmetal.operators.selection.*;
-import jmetal.problems.*                  ;
-import jmetal.problems.DTLZ.*;
-import jmetal.problems.ZDT.*;
-import jmetal.problems.WFG.*;
-import jmetal.problems.LZ09.* ;
-
-import jmetal.util.Configuration;
-import jmetal.util.JMException;
 import java.io.IOException;
-
 import java.util.logging.FileHandler;
 import java.util.logging.Logger;
 
+import jmetal.core.Algorithm;
+import jmetal.core.Operator;
+import jmetal.core.Problem;
+import jmetal.core.SolutionSet;
+import jmetal.problems.Kursawe;
+import jmetal.problems.ProblemFactory;
 import jmetal.qualityIndicator.QualityIndicator;
+import jmetal.util.Configuration;
+import jmetal.util.JMException;
 
 /**
  * Class for configuring and running the RandomSearch algorithm

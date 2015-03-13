@@ -558,7 +558,7 @@ public class ArchitectureTest extends TestHelper {
 	
 	@Test
 	public void shouldReturnEmptyListWhenNotFoundRelationships() throws Exception{
-		Architecture a = givenAArchitecture("Package");
+		Architecture a = givenAArchitecture("package");
 		
 		assertTrue(a.getAllPackages().iterator().next().getRelationships().isEmpty());
 	}

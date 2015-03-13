@@ -99,7 +99,7 @@ public class ReaderConfig {
      * @return boolean
      */
     public static boolean hasSmartyProfile() {
-        return getPathToProfileSMarty() == "" || getPathToProfileSMarty() == null ? false : true;
+	return getPathToProfileSMarty().isEmpty() || getPathToProfileSMarty() == null ? false : true;
     }
 
     /**
@@ -108,7 +108,7 @@ public class ReaderConfig {
      * @return boolean
      */
     public static boolean hasConcernsProfile() {
-        return getPathToProfileConcerns() == null || getPathToProfileConcerns() == null ? false : true;
+	return getPathToProfileConcerns().isEmpty() || getPathToProfileConcerns() == null ? false : true;
     }
 
     /**
@@ -117,11 +117,11 @@ public class ReaderConfig {
      * @return boolean
      */
     public static boolean hasRelationsShipProfile() {
-        return getPathToProfileRelationships() == null || getPathToProfileRelationships() == null ? false : true;
+	return getPathToProfileRelationships().isEmpty() || getPathToProfileRelationships() == null ? false : true;
     }
 
     public static boolean hasPatternsProfile() {
-        return getPathToProfilePatterns() == null || getPathToProfilePatterns() == null ? false : true;
+	return getPathToProfilePatterns().isEmpty() || getPathToProfilePatterns() == null ? false : true;
     }
 
     public static void setDirTarget(String path) {

@@ -26,19 +26,6 @@ public class ReaderConfigTest {
     }
 
     @Test
-    public void shouldReturnPathToDirectorySaveModels() {
-	String dir = ReaderConfig.getDirTarget();
-	assertEquals("manipulation/", dir);
-    }
-
-    @Test
-    public void shouldDirectorySaveModelsExists() {
-	File dirSaveModels = new File(ReaderConfig.getDirTarget());
-	assertTrue(dirSaveModels.exists());
-	assertTrue(dirSaveModels.isDirectory());
-    }
-
-    @Test
     public void shouldReturnPathToDirectoryExportModels() {
 	String dir = ReaderConfig.getDirExportTarget();
 	assertNotNull(dir);
@@ -62,19 +49,7 @@ public class ReaderConfigTest {
 	String path = ReaderConfig.getPathToProfileRelationships();
 	assertNotNull(path);
     }
-
-    @Test
-    public void shouldReturnPathToPatternsProfile() {
-	String path = ReaderConfig.getPathToProfilePatterns();
-	assertNotNull(path);
-    }
-
-    @Test
-    public void shouldProfileFileExistsOnConfiguredPath() {
-	File profile = new File(ReaderConfig.getPathToProfileSMarty());
-	assertTrue(profile.exists());
-    }
-
+    
     @Test
     public void dontReturnConfigFileConfIfISetOne6() {
 	ReaderConfig.setPathProfileRelationship("new/path/");
@@ -87,11 +62,6 @@ public class ReaderConfigTest {
 	PowerMockito.when(ReaderConfig.getPathToProfileSMarty()).thenReturn(null);
 	PowerMockito.when(ReaderConfig.getPathToProfileConcerns()).thenReturn(null);
 	assertFalse(ReaderConfig.hasSmartyProfile());
-    }
-
-    @Test
-    public void comPerfilSetado() {
-	assertTrue(ReaderConfig.hasSmartyProfile());
     }
 
     @Test

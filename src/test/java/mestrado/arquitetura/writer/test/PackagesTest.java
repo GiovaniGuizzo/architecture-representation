@@ -15,16 +15,16 @@ public class PackagesTest extends TestHelper {
 	
 	@Test
 	public void shouldCreateAClassIntoPackage() throws Exception{
-		Architecture a = givenAArchitecture("Package");
+		Architecture a = givenAArchitecture("package");
 		a.createPackage("PacoteUm");
 		
 		assertEquals("Deve ter dois pacote", 2, a.getAllPackages().size());
-		assertEquals("Deve ter o namespace correto", "Package::PacoteUm", a.findPackageByName("PacoteUm").getNamespace());
+		assertEquals("Deve ter o namespace correto", "package::PacoteUm", a.findPackageByName("PacoteUm").getNamespace());
 	}
 	
 	@Test
 	public void shouldCreateClasseIntoPackage() throws Exception{
-		Architecture a = givenAArchitecture("Package");
+		Architecture a = givenAArchitecture("package");
 		a.createPackage("PacoteUm");
 		
 		assertEquals("Deve ter dois pacote", 2, a.getAllPackages().size());
@@ -35,7 +35,7 @@ public class PackagesTest extends TestHelper {
 		
 		arquitetura.representation.Class foo = a.findClassByName("Foo").get(0);
 		assertNotNull(foo);
-		assertEquals("Package::PacoteUm",foo.getNamespace());
+		assertEquals("package::PacoteUm",foo.getNamespace());
 	}
 	
 	@Test @Ignore("Verificar pacote dentro de pacote...")

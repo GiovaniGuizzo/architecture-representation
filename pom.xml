@@ -2,8 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>opla-tool</groupId>
-	<artifactId>opla-tool</artifactId>
+	<groupId>opla</groupId>
 	<version>0.0.1</version>
 	<packaging>jar</packaging>
 	<properties>
@@ -168,11 +167,16 @@
 			<artifactId>cloning</artifactId>
 			<version>1.7.4</version>
 		</dependency>
-	 <dependency>
-	  <groupId>org.apache.commons</groupId>
-	  <artifactId>commons-collections4</artifactId>
-	  <version>4.0</version>
-	 </dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-collections4</artifactId>
+			<version>4.0</version>
+		</dependency>
+		<dependency>
+			<groupId>opla.logs</groupId>
+			<artifactId>loglog</artifactId>
+			<version>0.0.1</version>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -225,6 +229,7 @@
 	</reporting>
 
 
-	<name>OPLA-Tool</name>
+	<name>architecture-representation</name>
 	<url>github.com/edipofederle/architecture-representation</url>
+	<artifactId>architecture-representation</artifactId>
 </project>

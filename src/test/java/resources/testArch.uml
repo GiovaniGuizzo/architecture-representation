@@ -6,6 +6,13 @@
         <body> </body>
       </ownedComment>
       <packagedElement xmi:type="uml:Class" xmi:id="_mlAMEHdcEeKFLPdiRaUVaA" name="Class1">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_Xfgo4BixEeS1nOByajlvVg" name="foo" visibility="public">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YfI54BixEeS1nOByajlvVg" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YfI54RixEeS1nOByajlvVg" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_Yfb00BixEeS1nOByajlvVg">
+            <value xsi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_tatn8Hz0EeKJvOxVmtIMiw" name="foo">
           <ownedParameter xmi:type="uml:Parameter" xmi:id="_KIuEgHz1EeKJvOxVmtIMiw" name="" type="_NTZtRHz0EeKJvOxVmtIMiw" direction="return"/>
           <ownedParameter xmi:type="uml:Parameter" xmi:id="_MdWZkHz1EeKJvOxVmtIMiw" name="name" type="_NTZtRHz0EeKJvOxVmtIMiw" isUnique="false"/>

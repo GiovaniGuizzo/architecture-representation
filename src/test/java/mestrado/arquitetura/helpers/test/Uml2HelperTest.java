@@ -79,7 +79,7 @@ public class Uml2HelperTest  extends TestHelper{
 	
 	@Test
 	public void whenProfileIsntDefinedDefineIt() throws ModelNotFoundException, ModelIncompleteException, SMartyProfileNotAppliedToModelExcepetion{
-		Profile profile = (Profile) uml2Helper.load(getUrlToModel("profileNotdefined.profile"));
+		Profile profile = (Profile) uml2Helper.load(getUrlToModel("profileNotDefined.profile"));
 		assertTrue(profile.isDefined());
 	}
 	
